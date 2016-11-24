@@ -105,6 +105,14 @@
           "{{.Name}}",
           "--cpus",
           "2"
+        ],
+        [
+          "modifyvm",
+          "{{.Name}}",
+          "--nic2",
+          "bridged",
+          "--bridgeadapter2",
+          "en0: Ethernet"
         ]
       ]
     }
