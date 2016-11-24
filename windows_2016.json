@@ -121,9 +121,14 @@
     {
       "type": "powershell",
       "scripts": [
-        "./scripts/debloat-windows.ps1",
-        "./scripts/dev-tools.ps1"
+        "./scripts/debloat-windows.ps1"
       ]
+    },
+    {
+       "type": "shell",
+       "remote_path": "C:/Windows/Temp/dev-tools.ps1",
+       "script": "./scripts/dev-tools.ps1",
+       "execute_command": "Powershell.exe -executionpolicy unrestricted -File {{.Path}}"
     },
     {
       "type": "windows-restart"
