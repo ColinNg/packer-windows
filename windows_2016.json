@@ -105,14 +105,6 @@
           "{{.Name}}",
           "--cpus",
           "2"
-        ],
-        [
-          "modifyvm",
-          "{{.Name}}",
-          "--nic2",
-          "bridged",
-          "--bridgeadapter2",
-          "en0: Ethernet"
         ]
       ]
     }
@@ -133,10 +125,10 @@
       ]
     },
     {
-       "type": "shell",
-       "remote_path": "C:/Windows/Temp/dev-tools.ps1",
-       "script": "./scripts/dev-tools.ps1",
-       "execute_command": "Powershell.exe -executionpolicy unrestricted -File {{.Path}}"
+       "type": "powershell",
+       "scripts": [
+        "./scripts/dev-tools.ps1"
+      ]
     },
     {
       "type": "windows-restart"
