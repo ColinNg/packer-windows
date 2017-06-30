@@ -127,11 +127,17 @@
        "type": "powershell",
        "scripts": [
         "./scripts/chocolatey.ps1",
-        "./scripts/dotnet-dev.ps1"
+        "./scripts/dotnet-dev-1.ps1"
       ]
     },
     {
       "type": "windows-restart"
+    },
+    {
+      "type": "powershell",
+      "scripts": [
+        "./scripts/dotnet-dev-2.ps1"
+      ]
     },
     {
       "type": "windows-shell",
