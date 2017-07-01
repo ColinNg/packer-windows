@@ -146,7 +146,6 @@
       "scripts": [
         "./scripts/pin-powershell.bat",
         "./scripts/set-winrm-automatic.bat",
-        "./scripts/compile-dotnet-assemblies.bat",
         "./scripts/uac-enable.bat",
         "./scripts/disable-shutdown-tracker.bat",
         "./scripts/compact.bat"
