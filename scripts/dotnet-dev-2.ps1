@@ -1,12 +1,13 @@
-choco install LINQPad
-choco install 7Zip
-choco install git
-choco install SourceTree
-choco install KDiff3
-choco install SublimeText3
+#  WARNING: Url has SSL/TLS available, switching to HTTPS for download
+#    virtualbox-iso: Downloading linqpad5.install
+#    virtualbox-iso: from 'https://www.linqpad.net/GetFile.aspx?LINQPad5Setup.exe'
+#Build 'virtualbox-iso' errored: Script exited with non-zero exit status: 16001.
+#Allowed exit codes are: [0]
+# choco install LINQPad
 
 # General Usage
 cinst GoogleChrome
+cinst 7Zip
 
 # UI Testing
 cinst Firefox --forcex86
@@ -21,6 +22,7 @@ cinst JRE8
 
 # Developer/QA
 cinst git
+cinst SourceTree
 cinst Putty
 cinst sql-server-management-studio
 cinst AgentRansack
