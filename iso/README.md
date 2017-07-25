@@ -20,3 +20,7 @@ For example, you might want to start with one of the following:
 	* File Name: en_windows_server_2012_vl_x64_dvd_917758.iso
 	* SHA1 Hash: 063BC26ED45C50D3745CCAD52DD7B3F3CE13F36D
 	* Direct Download: http://msdn.microsoft.com/subscriptions/json/GetDownloadRequest?brand=MSDN&locale=en-us&fileId=50573&activexDisabled=true&akamaiDL=false
+* Windows Server 2016:
+	* File Name: packer_cache/49f719e23c56a779a991c4b4ad1680b8363918cd0bfd9ac6b52697d78a309855.iso
+	* Direct Download:  http://care.dlservice.microsoft.com/dl/download/1/4/9/149D5452-9B29-4274-B6B3-5361DBDA30BC/14393.0.161119-1705.RS1_REFRESH_SERVER_EVAL_X64FRE_EN-US.ISO
+
