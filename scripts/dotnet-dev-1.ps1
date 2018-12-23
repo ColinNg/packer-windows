@@ -1,1 +1,1 @@
-powershell choco install VisualStudio2015Community --execution-timeout=7200 --ignore-package-exit-codes
+powershell choco install VisualStudio2017Community --execution-timeout=7200 --ignore-package-exit-codes
